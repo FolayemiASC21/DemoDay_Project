@@ -3,7 +3,7 @@ let  database = {
         1: {
             "info": {
                 "name":"Crop production",
-                "description":"Agricultural workers maintain crops and tend livestock.",
+                "description":"Agricultural workers maintain crops and tend livestock and usually do their tasks outdoors in all kinds of weather. Most of them work full time, and some work more than 40 hours per week. Most agricultural workers do not need a formal educational credential to enter these occupations; however, animal breeders typically need a high school diploma. Agricultural workers typically receive on-the-job training.",
                 "total":"1,186",
                 "BlackEmployed":"2.8%",
                 "AsianEmployed":"1.2%",
