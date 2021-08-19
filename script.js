@@ -63,6 +63,8 @@ function GFG_click(clicked) {
             let text2 = document.createElement("p")
             let text3 = document.createElement("p")
             let text4 = document.createElement("p")
+            let link = document.createElement("a")
+            
 
             // image.src
             Header.innerHTML = database[AFFH][i].info.name
@@ -70,6 +72,8 @@ function GFG_click(clicked) {
             text2.innerHTML = database[AFFH][i].info.description + "<hr>"
             text3.innerHTML = "The total amount of people who work in this industry is about " + database[AFFH][i].info.total
             text4.innerHTML = "Out of the " + database[AFFH][i].info.total + " people who work in this industry " + database[AFFH][i].info.BlackEmployed + " are Black/African American, " + database[AFFH][i].info.AsianEmployed + " are Asian and, " + database[AFFH][i].info.HispanicEmployed + " are Hispanic/Latino."
+            link.innerHTML = "Click here for " + database[AFFH][i].info.name + " job applications"
+            link.href = "https://www.agcareers.com/crop-production-jobs.cfm"
 
             // div.appendChild(image)
             div.appendChild(Header)
@@ -77,6 +81,7 @@ function GFG_click(clicked) {
             div.appendChild(text2)
             div.appendChild(text3)
             div.appendChild(text4)
+            div.appendChild(link)
             profiles.appendChild(div)
         }
         //end of dropdown 1
